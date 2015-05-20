@@ -1,0 +1,7 @@
+set pagination off
+set disassembly-flavor intel
+
+run
+
+b *0x0000555555554EB3
+cont
