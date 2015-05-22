@@ -1,0 +1,32 @@
+set pagination off
+set disassembly-flavor intel
+
+run
+
+b *0x0806DFE2
+
+cont
+
+# This breaks inside the %n handler and shows what's going on
+#b *0x8080c2a
+#while 1
+#  print/x $eax
+#  print/x $ecx & 0x0ff
+#  cont
+#end
+
+# This prints out the printf-'d string
+#b *0x0804F56F
+#while 1
+#  x/s $eax
+#  x/16xb $eax
+#  cont
+#end
+
+# This prints out the 'size' variable at each iteration
+#b *0x08048FD0
+#cont
+#while 1
+#  x/16xb $esp-0x08
+#  cont
+#end
