@@ -1,0 +1,1291 @@
+You(^V<>) must find your way to the TARDIS(T) by avoiding the angels(A).
+Go through the exits(E) to get to the next room and continue your search.
+But, most importantly, don't blink!
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04   A       A         
+05     A               
+06                   A 
+07  A                  
+08                     
+09     A               
+10                    E
+11       A         A   
+12 >                   
+13  A  A               
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04   A       A         
+05     A               
+06                   A 
+07  A                  
+08                     
+09     A               
+10                    E
+11       A         A   
+12  <                  
+13  A  A               
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04   A       A         
+05     A               
+06                   A 
+07                     
+08  A                  
+09     A               
+10                    E
+11       A         A   
+12  A<                 
+13     A               
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04           A         
+05   A A               
+06                   A 
+07                     
+08   A                 
+09     A               
+10                    E
+11       A         A   
+12   A<                
+13     A               
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04           A         
+05    AA               
+06                   A 
+07                     
+08    A                
+09     A               
+10                    E
+11       A         A   
+12    A<               
+13     A               
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04           A         
+05     A               
+06     A             A 
+07                     
+08     A               
+09                     
+10     A              E
+11       A         A   
+12    AA<              
+13                     
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01       A             
+02        A            
+03                     
+04           A         
+05      A              
+06      A            A 
+07                     
+08      A              
+09                     
+10      A             E
+11       A         A   
+12     AA<             
+13                     
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02       AA            
+03                     
+04           A         
+05       A             
+06       A           A 
+07                     
+08       A             
+09                     
+10       A            E
+11                 A   
+12     AAA<            
+13                     
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02        A            
+03        A            
+04           A         
+05        A            
+06        A          A 
+07                     
+08        A            
+09                     
+10        A           E
+11                 A   
+12      AAA<           
+13                     
+14            A        
+15                     
+16                     
+17                     
+18         A     A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02         A           
+03         A           
+04           A         
+05         A           
+06         A         A 
+07                     
+08         A           
+09                     
+10         A          E
+11                 A   
+12       AAA<          
+13                     
+14            A        
+15                     
+16                     
+17         A           
+18               A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02          A          
+03          A          
+04           A         
+05          A          
+06          A        A 
+07                     
+08          A          
+09                     
+10          A         E
+11                 A   
+12        AAA<         
+13                     
+14            A        
+15                     
+16                     
+17          A          
+18               A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02           A         
+03           A         
+04                     
+05           A         
+06          AA       A 
+07                     
+08           A         
+09                     
+10           A        E
+11                 A   
+12         AAA<        
+13                     
+14            A        
+15                     
+16                     
+17           A         
+18               A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02            A        
+03            A        
+04                     
+05            A        
+06           AA      A 
+07                     
+08            A        
+09                     
+10            A       E
+11                 A   
+12          AAA<       
+13            A        
+14                     
+15                     
+16                     
+17            A        
+18               A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02             A       
+03             A       
+04                     
+05             A       
+06            AA     A 
+07                     
+08             A       
+09                     
+10             A      E
+11                 A   
+12           AAA<      
+13             A       
+14                     
+15                     
+16                     
+17             A       
+18               A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02              A      
+03              A      
+04                     
+05              A      
+06             AA    A 
+07                     
+08              A      
+09                     
+10              A     E
+11                 A   
+12            AAA<     
+13              A      
+14                     
+15                     
+16                     
+17              A      
+18               A     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02               A     
+03               A     
+04                     
+05               A     
+06              AA   A 
+07                     
+08               A     
+09                     
+10               A    E
+11                 A   
+12             AAA<    
+13               A     
+14                     
+15                     
+16              A      
+17               A     
+18                     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02                A    
+03                A    
+04                     
+05                A    
+06               AA  A 
+07                     
+08                A    
+09                     
+10                A   E
+11                 A   
+12              AAA<   
+13                A    
+14                     
+15                     
+16               A     
+17                A    
+18                     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02                 A   
+03                 A   
+04                     
+05                 A   
+06                AA A 
+07                     
+08                 A   
+09                     
+10                 A  E
+11                     
+12              AAAA<  
+13                 A   
+14                     
+15                     
+16                A    
+17                 A   
+18                     
+19                     
+Your move (w,a,s,d,q): w
+   012345678901234567890
+00                     
+01                     
+02                 A   
+03                 A   
+04                     
+05                 A   
+06                AA A 
+07                     
+08                 A   
+09                     
+10                 A  E
+11                  V  
+12              AAAAA  
+13                     
+14                     
+15                A    
+16                 A   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02                  A  
+03                  A  
+04                     
+05                  A  
+06                 AAA 
+07                     
+08                  A  
+09                     
+10                  A E
+11                  A< 
+12               AAAA  
+13                     
+14                     
+15                 A   
+16                  A  
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): w
+   012345678901234567890
+00                     
+01                     
+02                  A  
+03                  A  
+04                     
+05                  A  
+06                 AAA 
+07                     
+08                  A  
+09                     
+10                  AVE
+11               AAAAA 
+12                     
+13                     
+14                 A   
+15                  A  
+16                     
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): d
+You escaped one room, only to find...
+   012345678901234567890
+00             A       
+01              A      
+02                     
+03            A        
+04                     
+05               A     
+06                     
+07      A              
+08                     
+09                     
+10                     
+11                     
+12                     
+13                     
+14               A     
+15   A<                
+16       A             
+17                     
+18     A               
+19         E           
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00             A       
+01              A      
+02                     
+03            A        
+04                     
+05               A     
+06                     
+07      A              
+08                     
+09                     
+10                     
+11                     
+12                     
+13                     
+14               A     
+15    A<               
+16       A             
+17                     
+18     A               
+19         E           
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01             A       
+02              A      
+03                     
+04            A        
+05                     
+06               A     
+07                     
+08      A              
+09                     
+10                     
+11                     
+12                     
+13                     
+14                     
+15     A         A     
+16     ^ A             
+17                     
+18     A               
+19         E           
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01             A       
+02              A      
+03                     
+04            A        
+05                     
+06               A     
+07                     
+08      A              
+09                     
+10                     
+11                     
+12                     
+13                     
+14                     
+15               A     
+16     A<A             
+17     A               
+18                     
+19         E           
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02             A       
+03              A      
+04                     
+05            A        
+06                     
+07               A     
+08                     
+09      A              
+10                     
+11                     
+12                     
+13                     
+14                     
+15                     
+16      AA       A     
+17     A^              
+18                     
+19         E           
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02             A       
+03              A      
+04                     
+05            A        
+06                     
+07               A     
+08                     
+09                     
+10      A              
+11                     
+12                     
+13                     
+14                     
+15                     
+16       A       A     
+17     AA<             
+18                     
+19         E           
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03             A       
+04              A      
+05                     
+06            A        
+07                     
+08               A     
+09                     
+10                     
+11      A              
+12                     
+13                     
+14                     
+15                     
+16                     
+17     AAA       A     
+18       ^             
+19         E           
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02                     
+03             A       
+04              A      
+05                     
+06            A        
+07                     
+08               A     
+09                     
+10                     
+11       A             
+12                     
+13                     
+14                     
+15                     
+16                     
+17      AA       A     
+18       A<            
+19         E           
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04             A       
+05              A      
+06                     
+07            A        
+08                     
+09               A     
+10                     
+11                     
+12       A             
+13                     
+14                     
+15                     
+16                     
+17                     
+18      AAA      A     
+19        ^E           
+Your move (w,a,s,d,q): d
+You escaped one room, only to find...
+   012345678901234567890
+00  A                  
+01                  A  
+02                     
+03                     
+04                     
+05            A        
+06 ^                   
+07           A         
+08                     
+09                     
+10    A                
+11          A          
+12            A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01  A                  
+02                  A  
+03                     
+04                     
+05                     
+06            A        
+07 ^         A         
+08                     
+09                     
+10    A                
+11          A          
+12            A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02  A                  
+03                  A  
+04                     
+05                     
+06                     
+07          A A        
+08 ^                   
+09                     
+10    A                
+11          A          
+12            A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03  A                  
+04                  A  
+05                     
+06                     
+07                     
+08          A A        
+09 ^                   
+10    A                
+11          A          
+12            A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04  A                  
+05                  A  
+06                     
+07                     
+08                     
+09          A A        
+10 ^  A                
+11          A          
+12            A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05  A                  
+06                  A  
+07                     
+08                     
+09                     
+10   A      A A        
+11 ^        A          
+12            A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06  A                  
+07                  A  
+08                     
+09                     
+10                     
+11   A     AA A        
+12 ^          A        
+13                     
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06                     
+07  A                  
+08                  A  
+09                     
+10                     
+11                     
+12   A     AAAA        
+13 ^                   
+14                     
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06                     
+07                     
+08  A                  
+09                  A  
+10                     
+11                     
+12                     
+13   A     AAAA        
+14 ^                   
+15 E                   
+16                     
+17         A           
+18                     
+19            A        
+Your move (w,a,s,d,q): s
+You escaped one room, only to find...
+   012345678901234567890
+00                     
+01    A                
+02                     
+03                     
+04   A                 
+05                     
+06            A    A   
+07   A                 
+08             A     A 
+09  A  ^     A         
+10                   A 
+11                     
+12                     
+13                     
+14              A      
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02    A                
+03                     
+04                     
+05   A                 
+06                     
+07            A    A   
+08   A                 
+09   A      A  A     A 
+10     ^             A 
+11                     
+12                     
+13                     
+14              A      
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03    A                
+04                     
+05                     
+06   A                 
+07                     
+08            A    A   
+09   A                 
+10   A      A  A    AA 
+11     ^               
+12                     
+13                     
+14              A      
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04    A                
+05                     
+06                     
+07   A                 
+08                     
+09            A    A   
+10   A                 
+11   A      A  A    AA 
+12     ^               
+13                     
+14              A      
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05    A                
+06                     
+07                     
+08   A                 
+09                     
+10            A    A   
+11   A                 
+12   A      A  A    AA 
+13     ^               
+14              A      
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): a
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05    A                
+06                     
+07                     
+08   A                 
+09                     
+10           A    A    
+11   A                 
+12   A     A  A    AA  
+13    >                
+14             A       
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06    A                
+07                     
+08                     
+09   A                 
+10                     
+11           A    A    
+12   A                 
+13   A     A  A    AA  
+14    ^        A       
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): a
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06                     
+07    A                
+08                     
+09   A                 
+10                     
+11          A    A     
+12   A                 
+13   A    A  A    AA   
+14   >        A        
+15                     
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06                     
+07                     
+08    A                
+09                     
+10   A                 
+11                     
+12          A    A     
+13   A                 
+14   A    A  AA   AA   
+15   ^                 
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): a
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06                     
+07                     
+08   A                 
+09                     
+10                     
+11   A                 
+12         A    A      
+13                     
+14   A   A  AA   AA    
+15  >A                 
+16 E                   
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03                     
+04                     
+05                     
+06                     
+07                     
+08                     
+09   A                 
+10                     
+11                     
+12   A                 
+13         A    A      
+14                     
+15  AA   A  AA   AA    
+16 E^                  
+17                     
+18                     
+19                     
+Your move (w,a,s,d,q): a
+Finally...the TARDIS!
+   012345678901234567890
+00                     
+01            A        
+02                     
+03 >                   
+04               A     
+05   T  A              
+06                    A
+07                     
+08                     
+09        A  A         
+10                     
+11                     
+12            A        
+13                     
+14                     
+15                     
+16                     
+17                     
+18                     
+19                   A 
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02            A        
+03                     
+04 ^             A     
+05   T  A              
+06                    A
+07                     
+08                     
+09        A  A         
+10                     
+11                     
+12            A        
+13                     
+14                     
+15                     
+16                     
+17                     
+18                     
+19                   A 
+Your move (w,a,s,d,q): d
+   012345678901234567890
+00                     
+01                     
+02            A        
+03                     
+04  <            A     
+05   T  A              
+06                    A
+07                     
+08                     
+09        A  A         
+10                     
+11                     
+12            A        
+13                     
+14                     
+15                     
+16                     
+17                     
+18                     
+19                   A 
+Your move (w,a,s,d,q): s
+   012345678901234567890
+00                     
+01                     
+02                     
+03            A        
+04              A      
+05  ^T  A              
+06                    A
+07                     
+08                     
+09        A  A         
+10                     
+11                     
+12            A        
+13                     
+14                     
+15                     
+16                     
+17                     
+18                     
+19                   A 
+Your move (w,a,s,d,q): d
+TARDIS KEY: UeSlhCAGEp
+Welcome to the TARDIS!
+Your options are: 
+1. Turn on the console
+2. Leave the TARDIS
+Selection: 01234567 Invalid
+Your options are: 
+1. Turn on the console
+2. Leave the TARDIS
+Selection:  m+YU012345678
+Invalid
+Your options are: 
+1. Turn on the console
+2. Leave the TARDIS
+Selection: Invalid
+Your options are: 
+1. Turn on the console
+2. Leave the TARDIS
+Selection: 1
+The TARDIS console is online!Your options are: 
+1. Turn on the console
+2. Leave the TARDIS
+3. Dematerialize
+Selection: 3
+Coordinates: 51.492137, -0.192878 %274$p %275$p
+51.492137, -0.192878
+Coordinate 51.492137, -0.192878 0xffffcec8 0x56556491 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates:     51.492137,-0.192878 >>>%24$s<<< h†UVh†UVh†UVh†UV
+51.492137, -0.192878
+Coordinate     51.492137,-0.192878 >>>–Ô˜πÎ˜`‰˜9Ò˜0—Â˜P=˜¿Ì„˜P8˜VZUV<<< h†UVh†UVh†UVh†UV is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+    51.492137,-0.192878 >>>%24$s<<< †UV†UV†UV†UV
+Coordinates: 51.492137, -0.192878
+Coordinate     51.492137,-0.192878 >>>∞–Â˜PKÁ˜ê–Á˜¯Û˜pNÁ˜`√Î˜0÷„˜¿µÏ˜YUV 9Ò˜&YUV6YUV†e„˜êiÁ˜fYUVvYUVp&Ï˜<<< †UV†UV†UV†UV is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: 51.492137,-0.192878 ºÕˇˇ%440x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ºÕˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+51.492137,-0.192878 ΩÕˇˇ%459x%20$n
+
+51.492137,-0.192878 æÕˇˇ%460x%20$n
+
+Coordinates: Invalid coordinates
+Coordinates: 51.492137,-0.192878 øÕˇˇ%479x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ΩÕˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                   58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 51.492137, -0.192878
+Coordinate 51.492137,-0.192878 æÕˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                    58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 51.492137, -0.192878
+Coordinate 51.492137,-0.192878 øÕˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+51.492137,-0.192878 ¿Õˇˇ%326x%20$n
+
+Coordinates: Invalid coordinates
+Coordinates: 51.492137,-0.192878 ¡Õˇˇ%326x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ¿Õˇˇ                                                                                                                                                                                                                                                                                                                              58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+51.492137,-0.192878 ¬Õˇˇ%326x%20$n
+
+Coordinates: Invalid coordinates
+Coordinates: 51.492137,-0.192878 √Õˇˇ%326x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ¡Õˇˇ                                                                                                                                                                                                                                                                                                                              58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 51.492137,-0.192878 ƒÕˇˇ%348x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ¬Õˇˇ                                                                                                                                                                                                                                                                                                                              58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+51.492137,-0.192878 ≈Õˇˇ%434x%20$n
+
+Coordinates: Invalid coordinates
+Coordinates: 51.492137,-0.192878 ∆Õˇˇ%487x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 √Õˇˇ                                                                                                                                                                                                                                                                                                                              58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ƒÕˇˇ                                                                                                                                                                                                                                                                                                                                                    58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 51.492137,-0.192878 «Õˇˇ%487x%20$n
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ≈Õˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                          58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 100000,100000                                                                                                                                                                                           ls -l /home
+
+51.492137, -0.192878
+Coordinate 51.492137,-0.192878 ∆Õˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 51.492137, -0.192878
+Coordinate 51.492137,-0.192878 «Õˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               58601366 is occupied by another TARDIS.  Materializing there would rip a hole in time and space. Choose again.
+Coordinates: Invalid coordinates
+Coordinates: 
