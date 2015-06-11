@@ -22,70 +22,88 @@ def hash_password(password, connection_id, mode)
   return result
 end
 
-s = TCPServer.new(17069)
-c = s.accept()
+def go(c)
+  puts("Started a new thread: #{c}")
 
-key = ""
-0.upto(14) do |i|
-  key += (rand(0x7F - 0x20) + 0x20).chr
-end
+  key = ""
+  0.upto(14) do |i|
+    key += (rand(0x7F - 0x20) + 0x20).chr
+  end
 
-c.write("connection ID: " + key + "\n")
-c.write("\n\n*** Welcome to the ACME data retrieval service ***\nwhat version is your client?\n")
-version = c.recv(1024).chomp()
+  puts("Generated a connection id: " + key)
 
-#if(c != "version 3.11.54")
-#  c.puts("Sorry!")
-#  c.close
-#  exit
-#end
+  c.write("connection ID: " + key + "\n")
+  c.write("\n\n*** Welcome to the ACME data retrieval service ***\nwhat version is your client?\n")
+  version = c.recv(1024).chomp()
 
-c.write("hello...who is this?")
-username = c.recv(1024).chomp()
-c.write("\x0a")
+  puts("Received version: " + version)
+  if(version != "version 3.11.54")
+    c.puts("Sorry!")
+    c.close
+    return
+  end
 
-puts("Username: #{username}")
+  c.write("hello...who is this?")
+  username = c.recv(1024).chomp()
+  c.write("\x0a")
 
-c.write("enter user password\x0a")
-password = c.recv(1024).chomp()
+  puts("Username: #{username}")
 
-puts("Password: #{password}")
+  c.write("enter user password\x0a")
+  password = c.recv(1024).chomp()
 
-if(password == hash_password(username, key, 1))
-  loop do
-    c.puts("hello #{username}, what would you like to do?\n")
+  puts("Password: #{password}")
 
-    command = c.recv(1024).chomp()
-    puts("Command: #{command}")
-    if(command == "list users")
-      ['grumpy', 'mrvito', 'gynophage', 'selir', 'jymbolia', 'sirgoon', 'duchess', 'deadwood'].each do |user|
-        c.puts("#{user}")
-      end
-    elsif(command == "print key")
-      if(username == "grumpy")
-        challenge = ""
-        0.upto(4) do
-          challenge = challenge + (rand(0x7f - 0x20) + 0x20).chr
+  if(password == hash_password(username, key, 1))
+    puts("Valid password!")
+    loop do
+      c.puts("hello #{username}, what would you like to do?\n")
+
+      command = c.recv(1024).chomp()
+      puts("Command: #{command}")
+      if(command == "list users")
+        ['grumpy', 'mrvito', 'gynophage', 'selir', 'jymbolia', 'sirgoon', 'duchess', 'deadwood'].each do |user|
+          c.puts("#{user}")
         end
-        c.write("challenge: " + challenge + "\n")
-        sleep(0.1)
-        c.write("answer?\n")
-        sleep(0.1)
-        proof = c.recv(1024).chomp
+      elsif(command == "print key")
+        if(username == "duchess")
+          challenge = ""
+          0.upto(4) do
+            challenge = challenge + (rand(0x7f - 0x20) + 0x20).chr
+          end
+          c.write("challenge: " + challenge + "\n")
+          sleep(0.1)
+          c.write("answer?\n")
+          sleep(0.1)
+          proof = c.recv(1024).chomp
 
-        if(proof == hash_password(challenge, key, 7))
-          c.write("the key is: The only easy day was yesterday. 44564")
+          if(proof == hash_password(challenge, key, 7))
+            c.write("the key is: The only easy day was yesterday. 44564")
+          else
+            c.write("sorry!\n")
+          end
         else
-          c.write("sorry!\n")
+          c.puts("the key is not accessible from this account. your administrator has been notified.")
         end
       else
-        c.puts("the key is not accessible from this account. your administrator has been notified.")
+        c.puts("contact your company admin for help\n")
       end
-    else
-      c.puts("contact your company admin for help\n")
+    end
+  else
+    puts("Bad password!")
+    c.puts("sorry")
+    c.close()
+  end
+end
+
+s = TCPServer.new(17069)
+loop do
+  Thread.fork(s.accept()) do |c|
+    begin
+      go(c)
+    rescue Exception => e
+      puts("Caught an exception: #{e}")
     end
   end
-else
-  c.puts("sorry")
-  c.close()
 end
+
