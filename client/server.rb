@@ -43,6 +43,7 @@ def go(c)
     return
   end
 
+  puts("Asking for username")
   c.write("hello...who is this?")
   username = c.recv(1024).chomp()
   c.write("\x0a")
