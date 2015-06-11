@@ -272,46 +272,7 @@ def read_line(s)
   return line
 end
 
-test_passwords = [ 'password', 'duchess', '123456', 'abc123', 'princess', 'mayanson', 'baybee', 'password', 'duchess', '123456', 'abc123', 'princess', 'mayanson', 'baybee' ]
-ids = [ '!@!$%^&*(){}:;<>', ' jk23 SaFDSDFF()', '`~JK~~~{}{}{}{}[', '----------------', 'AAAA AA AAAA AAA', 'qwertyuioppppoiu', '<><><><><><><><>', '!@!$%^&*(){}:;<>', ' jk23 SaFDSDFF()', '`~JK~~~{}{}{}{}[', '----------------', 'AAAA AA AAAA AAA', 'qwertyuioppppoiu', '<><><><><><><><>' ]
-
-test_passwords.each do |a|
-  ids.each do |b|
-    if(hash_password(a, b, 1) != hash_password_phase2(a, b, 1))
-      puts("Uh oh!")
-    end
-    if(hash_password(a, b, 7) != hash_password_phase2(a, b, 7))
-      puts("Uh oh!")
-    end
-
-    if(hash_password(a, b, 1) != hash_password_phase3(a, b, 1))
-      puts("Uh oh!")
-    end
-    if(hash_password(a, b, 7) != hash_password_phase3(a, b, 7))
-      puts("Uh oh!")
-    end
-
-    if(hash_password(a, b, 1) != hash_password_phase4(a, b, 1))
-      puts("Uh oh!")
-    end
-    if(hash_password(a, b, 7) != hash_password_phase4(a, b, 7))
-      puts("Uh oh!")
-    end
-
-    if(hash_password(a, b, 1) != hash_password_phase5(a, b, 1))
-      puts("Uh oh!")
-    end
-    if(hash_password(a, b, 7) != hash_password_phase5(a, b, 7))
-      puts("Uh oh!")
-    end
-  end
-end
-
-
-
-exit
-
-s = TCPSocket.new("52.74.123.29", 17069)
+s = TCPSocket.new("127.0.0.1", 17069)
 id = read_line(s)
 id = id.split(/ /, 2)[2]
 puts(id)
